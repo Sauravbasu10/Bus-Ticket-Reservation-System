@@ -1,0 +1,227 @@
+.container_signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 685px;
+    height: 520px;
+    padding: 52px 42px;
+    margin: 32px;
+    justify-content: center;
+    border: 2px solid #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+  }
+  
+  .container_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 685px;
+    height: 454px;
+    padding: 52px 32px;
+    margin: 32px;
+    border: 2px solid #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+  }
+  
+  .inputclass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input#username_signup_id,
+  input#email_signup_id,
+  input#contact_signup_id,
+  input#pass-signup_id,
+  input#cpass_signup_id {
+    width: 100%;
+    font-size: 16px;
+    height: 25px;
+    border-radius: 6px;
+    padding: 8px;
+    border: 2px solid #151515;
+  }
+  
+  input#email_login_id,
+  input#pass_login_id {
+    border: 2px solid #333;
+    width: 100%;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  input.btn_signup,
+  input.btn_login,
+  input.btn_pssngr {
+    font-size: 16px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    margin: 25px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+  }
+  
+  input.btn_signup {
+    background-color: #333;
+  }
+  
+  input.btn_signup:hover {
+    background-color: #5d5d5e;
+  }
+  
+  input.btn_login {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  input.btn_login:hover {
+    background-color: #222;
+  }
+  
+  input.btn_pssngr {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  input.btn_pssngr:hover {
+    background-color: #222;
+  }
+  
+  u {
+    font-size: 2rem;
+    color: #f1eaea;
+  }
+  
+  .bg {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  h1 {
+    background-color: #333;
+    opacity: 0.9;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #a93e3e;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  h1:hover {
+    opacity: 1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  /* passenger info page css here */
+  
+  .container_pssngr_2 {
+    float: left;
+    height: auto;
+    width: 600px;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin: 30px 26px 36px;
+    border-radius: 8px;
+    opacity: 0.9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .container_pssngr_2:hover {
+    opacity: 1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .container_pssngr_1 {
+    float: right;
+    opacity: 0.9;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin: 30px 30px 30px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .container_pssngr_1:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+  input#gtrws_id,
+  input#delrw_id,
+  input.btn_pssngr {
+    background-color: #333;
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    height: 38px;
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  input#gtrws_id:hover,
+  input#delrw_id:hover,
+  input.btn_pssngr:hover {
+    background-color: #222;
+    box-shadow: none;
+  }
+  
+  td {
+    font-size: 15px;
+    padding: 6px;
+  }
+  
+  table#t1 {
+    margin: auto;
+    border: 1px solid #333;
+    width: 100%;
+  }
+  
+  .bg1 {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+  }
+  
